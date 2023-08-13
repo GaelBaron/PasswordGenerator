@@ -1,0 +1,295 @@
+.App-style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #18171F;
+  height: 100vh;
+  width: 100vw;
+}
+
+.Title-container {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 350px;
+  color: #817d92;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.Password-container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 350px;
+  background-color: #24232C;
+}
+
+.Text-container {
+  width: 300px;
+  align-items: center;
+  margin-left: 5%;
+}
+
+.Password-button {
+  margin-right: 10px;
+  height: 30px;
+  width: 30px;
+  background-color: #24232C;
+  border: none;
+  color: #817d92;
+  cursor: pointer;
+}
+
+.Input-container {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  justify-content: center;
+  height: 380px;
+  width: 350px;
+  background-color: #24232C;
+}
+
+.Checkbox {
+  margin-left: 10px;
+  margin-top: 10px;
+  height: 15px;
+  width: 15px;
+  border: 2px solid #A4FFAF;
+  cursor: pointer;
+  background: #A4FFAF;
+}
+
+.Password-edited-text {
+  color: #E6E5EA;
+}
+
+.SettingsText {
+  margin-left: 10px;
+  color: #e6e5ea;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  display: flex;
+  flex-direction: row;
+}
+
+.Password-copied-text {
+  margin-left: 10px;
+  color: #A4FFAF;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+}
+
+.Password-default-text {
+  margin-left: 10px;
+  font-family: 'JetBrains Mono', monospace;
+  color: #817d92;
+  font-size: 13px;
+}
+
+.Strength-container {
+  margin-top: 20px;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 320px;
+  background-color: #18171F;
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+  margin: 10px 0;
+  width: 90%;
+  margin-left: 5%;
+}
+
+input[type=range]:focus {
+  outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px #000000;
+  border-radius: 0px;
+  border: 0px solid #000000;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 0px 0px 1px #000000;
+  border: 0px solid #000000;
+  height: 18px;
+  width: 18px;
+  border-radius: 15px;
+  background: #ffffff;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -4.5px;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {}
+
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 9px;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px #000000;
+  border-radius: 0px;
+  border: 0px solid #000000;
+}
+
+input[type=range]::-moz-range-thumb {
+  box-shadow: 0px 0px 1px #000000;
+  border: 0px solid #000000;
+  height: 18px;
+  width: 18px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 9px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+
+input[type=range]::-ms-fill-lower {
+  border: 0px solid #000000;
+  border-radius: 0px;
+  box-shadow: 0px 0px 0px #000000;
+}
+
+input[type=range]::-ms-fill-upper {
+  border: 0px solid #000000;
+  border-radius: 0px;
+  box-shadow: 0px 0px 0px #000000;
+}
+
+input[type=range]::-ms-thumb {
+  box-shadow: 0px 0px 1px #000000;
+  border: 0px solid #000000;
+  height: 18px;
+  width: 18px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+input[type="range"]:hover::-webkit-slider-thumb {
+  background-color: #24232C;
+  border-color: #A4FFAF;
+  border-width: 2px;
+}
+
+.center-button svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.Empty-square {
+  height: 15px;
+  width: 5px;
+  margin-left: 5px;
+  background-color: #18171F;
+  border: 1px solid #FFFFFF;
+  cursor: pointer;
+}
+
+.Red-square {
+  height: 15px;
+  width: 5px;
+  margin-left: 5px;
+  background-color: #F64A4A;
+  border: 1px solid #F64A4A;
+  cursor: pointer;
+}
+
+.Orange-square {
+  height: 15px;
+  width: 5px;
+  margin-left: 5px;
+  background-color: #FB7C58;
+  border: 1px solid #FB7C58;
+  cursor: pointer;
+}
+
+.Yellow-square {
+  height: 15px;
+  width: 5px;
+  margin-left: 5px;
+  background-color: #F8CD65;
+  border: 1px solid #F8CD65;
+  cursor: pointer;
+}
+
+.Green-square {
+  height: 15px;
+  width: 5px;
+  margin-left: 5px;
+  background-color: #A4FFAF;
+  border: 1px solid #A4FFAF;
+  cursor: pointer;
+}
+
+.Square-holder {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: right;
+  height: 40px;
+  width: 350px;
+  margin-right: 5%;
+}
+
+.Big-number {
+  margin-left: 180px;
+  justify-content: right;
+  color: #A4FFAF;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 20px;
+}
+
+.Generate-button {
+  margin-top: 20px;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 320px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  background-color: #24232C;
+  border: 2px solid #A4FFAF;
+  cursor: pointer;
+  color: #A4FFAF;
+}
+
+.Generate-button:hover {
+  margin-top: 20px;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 320px;
+  background-color: #A4FFAF;
+  border: 2px solid #A4FFAF;
+  cursor: pointer;
+  color: #18171F;
+}
